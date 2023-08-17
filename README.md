@@ -1,4 +1,4 @@
-# Website of BackInChain
+# Website of BackOnChain
 
 Visit [our Website](https://backonchain.github.io/website/) !
 
