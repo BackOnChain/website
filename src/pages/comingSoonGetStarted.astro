@@ -1,12 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+import getStarted from '@src/static/getStarted.svg';
+
 ---
 
 <BaseLayout betweenMainAndFooterClass="grow" mainClass="w-[95%] 3xl:w-1/2 place-content-center text-center items-center self-center mt-4 flex flex-col">
 
-    <div class="flex items-center justify-center w-screen min-h-screen bg-gradient-to-t from-neutral-800 to-black font-bold px-16">
+    <div class="flex flex-col items-center justify-center w-screen min-h-screen bg-gradient-to-t from-neutral-800 to-black font-bold px-16">
         <h1 class="text-white text-7xl md:text-7xl leading-0 m-0 p-12">Coming soon...</h1>
+        <img src={getStarted} alt="Logo" class="min-w-[400px] w-1/2 md:w-1/4" />
     </div>
 
 </BaseLayout>
